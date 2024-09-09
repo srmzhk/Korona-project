@@ -60,7 +60,7 @@ sample-integers.txt short statistic: elements = 3
 sample-floats.txt short statistic: elements = 3  
 sample-strings.txt short statistic: elements = 6
 
-## Full statistic:  
+### Full statistic:  
 sample-integers.txt full statistic: elements = 3; min: 45; max: 123456789; sum: 123557334, average: 41185778  
 sample-floats.txt full statistic: elements = 3; min: -0.001; max: 3.1415; sum: 3.1405, average: 1.0468334  
 sample-strings.txt full statistic: elements = 6; min length: 5; max length: 42
