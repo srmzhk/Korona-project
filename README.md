@@ -1,4 +1,4 @@
-# Korona-project
+# Shift-project
 Pretty simple and well developed console application that was written in Java and Maven build tool. This project has been created for "Золотая корона" courses.
 
 ## Main functionality  
