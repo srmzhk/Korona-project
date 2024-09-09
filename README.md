@@ -1,13 +1,13 @@
 # Korona-project
 Pretty simple and well developed console application that was written in Java and Maven build tool. This project has been created for "Золотая корона" courses.
 
-# Main functionality  
+## Main functionality  
   * sorting various types from 1 and more input files into 3 output files (integers, floats, strings)
   * provide full and short statistic about sorted values
   * possibility to set the path and prefix for output files
   * support parallel writing into output files
 
-# Options
+## Options
   * -o: set the path for output files
   * -p: set the prefix for output files
   * -a: append text into output files
@@ -17,8 +17,8 @@ Pretty simple and well developed console application that was written in Java an
   Example: -o some/path/to -p myprefix_  
   Output files: ../some/path/to/myprefix_integers.txt ../some/path/to/myprefix_floats.txt ../some/path/to/myprefix_strings.txt
 
-# Example of work
-## Input file in1.txt:  
+## Example of work
+### Input file in1.txt:  
 Lorem ipsum dolor sit amet  
 45  
 Пример  
@@ -28,26 +28,26 @@ consectetur adipiscing
 тестовое задание  
 100500  
 
-## Input file in2.txt:  
+### Input file in2.txt:  
 Нормальная форма числа с плавающей запятой  
 1.528535047E-25  
 Long  
 123456789
 
-## Util start up:  
+### Util start up:  
 java -jar util.jar -s -a -p sample- in.txt in2.txt  
 
-## sample-integers.txt:  
+### sample-integers.txt:  
 45  
 100500  
 123456789  
 
-## sample-floats.txt:  
+### sample-floats.txt:  
 3.1415  
 -0.001  
 1.528535047E-25  
 
-## sample-strings.txt  
+### sample-strings.txt  
 Lorem ipsum dolor sit amet  
 Пример  
 consectetur adipiscing  
@@ -55,7 +55,7 @@ consectetur adipiscing
 Нормальная форма числа с плавающей запятой  
 Long
 
-## Short statistic:  
+### Short statistic:  
 sample-integers.txt short statistic: elements = 3  
 sample-floats.txt short statistic: elements = 3  
 sample-strings.txt short statistic: elements = 6
