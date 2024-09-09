@@ -11,5 +11,6 @@ Pretty simple and well developed console application that was written in Java an
   * -a: append text into output files
   * -s: short statistic
   * -f: full statistic
-Example: -o some/path/to -p myprefix_
-Output files: ../some/path/to/myprefix_integers.txt ../some/path/to/myprefix_floats.txt ../some/path/to/myprefix_strings.txt
+  
+  Example: -o some/path/to -p myprefix_  
+  Output files: ../some/path/to/myprefix_integers.txt ../some/path/to/myprefix_floats.txt ../some/path/to/myprefix_strings.txt
